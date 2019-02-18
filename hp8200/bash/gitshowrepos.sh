@@ -13,7 +13,7 @@
 
 thisdir=$(pwd);
 echo "############################################"
-for d in ~/code/onecom-hosted-bsuc ~/emacscfgs ~/Documents/bsuc-audio-visual ~/binlocal
+for d in ~/code/onecom-hosted-bsuc ~/emacscfgs ~/Documents/bsuc-audio-visual ~/binlocal  ~/configs
 do
 		echo $d
 		cd $d && echo "-- git status --" && git status
